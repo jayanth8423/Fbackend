@@ -1,0 +1,25 @@
+/* Ensure smooth transition for mobile menu */
+.navbar {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Styling for mobile menu */
+  .mobile-menu {
+    background-color: #2563eb; /* Blue-600 */
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Mobile menu links */
+  .mobile-menu a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .mobile-menu a:hover {
+    color: #cbd5e1; /* Gray-200 */
+  }
+  

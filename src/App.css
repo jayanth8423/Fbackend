@@ -1,0 +1,127 @@
+/* Body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #141814;
+  overflow: hidden;
+}
+
+/* Full height container for canvas */
+canvas {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Centered form container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+  width: 400px;
+  padding: 20px;
+  background: transparent; /* Fully transparent background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Title Styling */
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #70007a;
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+  font-size: 1rem;
+  color: #fff; /* Changed to white for better visibility */
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+}
+h2{
+  color: #ddd;
+}
+
+/* Input fields styling */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2); /* Light transparent background */
+  color: #fff;
+}
+
+/* Placeholder text styling */
+input::placeholder {
+  color: #ddd;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button[type='submit'] {
+  background-color: #343497;
+  color: #fff;
+}
+
+button[type='submit']:hover {
+  background-color: #5d5de1;
+}
+
+button.signup {
+  background-color: #0000ff;
+  color: #fff;
+  margin-top: 10px;
+}
+
+button.signup:hover {/* Username and input in the same line */
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 1rem;
+  color: #fff;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.input-group input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+  background-color: #0000cc;
+}
+.header{
+  background-color: white;
+}
+/* please change that the code should be the user name and place holder in the same line */
