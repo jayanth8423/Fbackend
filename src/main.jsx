@@ -22,7 +22,7 @@ import CustomerHome from "./CustomerHome.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <CartProvider> {/* ✅ Wrap your app in CartProvider */}
-      <BrowserRouter>
+      <BrowserRouter basename="/grocessery">
         <Routes>
           <Route path="/CustomerHome" element={<CustomerHome/>}/>
           <Route path="/" element={<Home />} />
