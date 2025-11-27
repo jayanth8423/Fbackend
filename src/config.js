@@ -1,5 +1,5 @@
 const config = {
-  apiUrl: "http://localhost:8081", // ✅ Backend base URL
+  apiUrl: "http://localhost:30083", // ✅ Backend base URL
 
   endpoints: {
     // 🔹 Customer APIs
